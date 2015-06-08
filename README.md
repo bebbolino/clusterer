@@ -51,7 +51,7 @@ In the class you are using the GoogleMap object, you must instance the **Cluster
 	// [...]
 
 	private void initClusterer() {
-		clustered = new Clusterer<MyPoi>(this, map);
+		clusterer = new Clusterer<MyPoi>(this, map);
 	}
 
 ```
